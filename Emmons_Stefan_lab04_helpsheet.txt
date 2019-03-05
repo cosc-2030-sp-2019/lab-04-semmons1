@@ -1,0 +1,22 @@
+Stefan Emmons
+COSC 2030-01
+Lab 04
+Dr. Hill, or Pedro Marquez
+3-4-2019
+
+The strictest definition of a record expresses it as a linear, direct access data structure with diverse elements or components.
+An example of how to build and use a record can be seen below:
+
+Vehicle(manYear, make, model, mileage, aspirationType)
+
+struct VehicleType
+{
+int manYear;
+char make[30];
+char model[30];
+float mileage;
+char aspirationType[30];
+};
+
+VehicleType vehicle 1;
+VehicleType vehicle 2;
